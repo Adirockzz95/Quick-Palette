@@ -1,0 +1,78 @@
+<adik.fabtransitions.MorphFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <at.markushi.ui.RevealColorView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/reveal"/>
+
+    <include layout="@layout/msgs"/>
+
+<FrameLayout
+    xmlns:card="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="bottom"
+    android:id="@+id/panel"
+    android:visibility="invisible"
+    android:background="@drawable/card"
+    android:layout_width="fill_parent"
+    android:layout_height="100dp">
+    <LinearLayout
+        android:id="@+id/base"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:onClick="Img1"
+            android:layout_margin="10dp"
+            android:layout_gravity="end|center"
+            android:id="@+id/img1"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:src="@drawable/shapes"/>
+        <ImageView
+            android:onClick="Img2"
+
+            android:layout_margin="5dp"
+            android:layout_gravity="end|center"
+            android:id="@+id/img2"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:src="@drawable/shapes"/>
+        <ImageView
+            android:onClick="Img3"
+            android:layout_margin="5dp"
+            android:layout_gravity="end|center"
+            android:id="@+id/img3"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:src="@drawable/shapes"/>
+        <ImageView
+            android:onClick="Img4"
+            android:layout_margin="5dp"
+            android:layout_gravity="end|center"
+            android:id="@+id/img4"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:src="@drawable/shapes"/>
+        <ImageView
+            android:onClick="Img5"
+            android:layout_margin="10dp"
+            android:layout_gravity="end|center"
+            android:id="@+id/img5"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:src="@drawable/shapes"/>
+
+        </LinearLayout>
+
+
+</FrameLayout>
+
+</adik.fabtransitions.MorphFrameLayout>
+
+
+
+
+

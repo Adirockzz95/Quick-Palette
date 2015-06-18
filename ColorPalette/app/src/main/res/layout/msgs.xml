@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:text="Hey there! :)"
+        android:background="@drawable/msg_bubble_left" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:background="@drawable/msg_bubble_hangout_right"
+        android:text="Hello, how are you?"
+        android:layout_gravity="right"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:background="@drawable/msg_bubble_left"
+        android:maxWidth="300dp"
+        android:textAlignment="center"
+        android:text="Just great thanks. How about you?" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:inputType="textMultiLine"
+        android:maxWidth="290dp"
+        android:background="@drawable/msg_bubble_hangout_right"
+        android:text="Nothing much. Enjoying the vacations."
+        android:layout_gravity="right"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:inputType="textShortMessage"
+        android:text="Oh! that's nice."
+        android:maxWidth="290dp"
+        android:background="@drawable/msg_bubble_left"
+        android:layout_gravity="left"/>
+
+</LinearLayout>
